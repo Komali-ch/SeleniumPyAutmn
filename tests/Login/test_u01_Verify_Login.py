@@ -35,4 +35,5 @@ class Test_u01_Verify_title_login:
        # time.sleep(2)
        self.ul.setPassword(self.password)
        self.ul.clkLgn()
+       self.driver.close()
 
